@@ -3,9 +3,6 @@ from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 import os
 from concurrent.futures import ThreadPoolExecutor
-from dotenv import load_dotenv
-
-load_dotenv()
 
 from backend import (
     set_api_key,
@@ -114,3 +111,4 @@ if __name__ == '__main__':
         print("⚠️  Warning: OPENROUTER_API_KEY not set!")
         print("Set it with: export API='your-key-here'")
     app.run(host="0.0.0.0", port=5000, debug=False)
+
