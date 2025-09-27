@@ -17,12 +17,17 @@ The project runs as a **single Flask app** deployed on **Render** — serving bo
 ---
 
 ## 🗂️ Project Structure
-.
+
 ├── backend.py 
+
 ├── flask_api_server.py 
+
 ├── templates/
-│ └── index.html 
+
+  └── index.html 
+
 ├── requirements.txt 
+
 └── README.md 
 
 ---
